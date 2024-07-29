@@ -18,9 +18,6 @@ def dia_de_hoy(request,dia2):
     texto = f"Hoy es; <br>{dia}"
     return HttpResponse(texto)
 
-
-
-
 def probando_template(request):
     nombre = "Pepe"
     apellido = "Arturo"
